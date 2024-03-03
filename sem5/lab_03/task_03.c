@@ -3,7 +3,12 @@
 #include <unistd.h>
 
 int main(int argc, char *argv[])
-{
+{	
+	if (argc != 3)
+	{
+		printf("Error! Argc needs to be 3!\n");
+		return EXIT_FAILURE;
+	}
 	pid_t childpid[2], w;
 	int wstatus;
 	static char* newenviron[] = { NULL };
@@ -17,14 +22,11 @@ int main(int argc, char *argv[])
 		}
 		else if (childpid[i] == 0)
 		{
-			printf("Child: pid = %d, ppid = %d, gid = %d\n", getpid(), getppid(), getpgrp());
-
 			if (execve(argv[i + 1], newargv, newenviron) == -1)
 			{
 				printf("Can't exec %d!\n", childpid[i]);
 				exit(1);
 			}
-			exit(0);
 		}
 	}
 	for (int i = 0; i < 2; i++)

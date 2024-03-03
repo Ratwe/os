@@ -5,7 +5,6 @@
 
 int main()
 {
-	printf("Parent: pid=%d, ppid=%d, gid=%d\n", getpid(), getppid(), getpgrp());
 	pid_t childpid[2];
 	for (int i = 0; i < 2; i++)
 	{
@@ -18,6 +17,8 @@ int main()
 			printf("After sleep(2)\nChild[%d]: pid=%d, ppid=%d, gid=%d\n", i, getpid(), getppid(), getpgrp());
 			exit(0);
 		}
+		else
+			printf("Parent: pid=%d, ppid=%d, gid=%d\n", getpid(), getppid(), getpgrp());
 	}
 	return 0;
 }

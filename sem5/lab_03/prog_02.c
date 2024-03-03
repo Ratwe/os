@@ -11,7 +11,7 @@ void draw()
 
 int main()
 {
-    printf("This program draws a cat until input char 'c'\n");
+    printf("\nThis program draws a cat until input char 'c'\n");
 
     char ch;
     printf("Enter char: ");

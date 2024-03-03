@@ -1,32 +1,24 @@
 #include <stdio.h>
-#include <unistd.h>
+#include <stdlib.h>
+#include <string.h>
 #include <sys/types.h>
 #include <sys/wait.h>
-#include <stdlib.h>
-
-
-/* Оба потомка пишут в один программный канал свои сообщения.
-Запрещается передавать какие-то осмысленные сообщения.
-Первый child передаёт три буквы, второй - десять.
-Размер сообщения определять динамически - sizeof().
-Parent их читает три раза. Чтобы убедиться, что прочитанное сообщение перестаёт существовать:
-читает от первого, второго, читает третий раз -- труба пустая.
-Писать в один buf неопределённого размера.*/
+#include <unistd.h>
 
 int main()
 {
-	char text[11] = {0};
-    char* msg[11] = { "aaa", "bbbbbbbbbb" };
+	char* buf;
+    char* msg[2] = {"aaa", "bbbbbbbbbb"};
     int pipefd[2];
 	int childpid[2];
 	int wstatus;
+
     if (pipe(pipefd) == -1)
     {
         perror("Can't pipe.");
-        exit(EXIT_FAILURE);
+        exit(1);
     }
-    printf("Parent: pid=%d, ppid=%d, gid=%d\n", getpid(), getppid(), getpgrp());
-    
+
 	for (int i = 0; i < 2; i++)
 	{
 		if ((childpid[i] = fork()) == -1)
@@ -37,9 +29,9 @@ int main()
 		else if (childpid[i] == 0)
 		{
             close(pipefd[0]);
-            write(pipefd[1], msg[i], sizeof(msg[i]));
-            printf("Message '%s' sent to parent.\n", msg[i]);
-            return EXIT_SUCCESS;
+            write(pipefd[1], msg[i], strlen(msg[i]));
+            printf("Child %d sent message %s\n", getpid(), msg[i]);
+            exit(0);
 		}
 	}
 
@@ -60,8 +52,20 @@ int main()
 		}
 	}
 
-	printf("\nMessage received:\n");
+	for (int i = 0; i < 2; i++)
+	{
+		buf = "";
+		buf = malloc(strlen(msg[i]));
+		close(pipefd[1]);
+		read(pipefd[0], buf, strlen(msg[i]));
+		printf("got %s\n", buf);
+	}
+
+	buf = "";
+	buf = malloc(strlen(msg[1]));
 	close(pipefd[1]);
-	read(pipefd[0], text, 11);
-	printf("%s\n", text);
+	read(pipefd[0], buf, strlen(msg[1]));
+	printf("got %s\n", buf);
+
+	return 0;
 }
