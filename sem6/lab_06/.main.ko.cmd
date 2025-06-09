@@ -1,0 +1,1 @@
+cmd_/home/waiden/Desktop/os/sem6/lab_06/main.ko := ld -r  -m elf_x86_64  --build-id=sha1  -T scripts/module.lds -o /home/waiden/Desktop/os/sem6/lab_06/main.ko /home/waiden/Desktop/os/sem6/lab_06/main.o /home/waiden/Desktop/os/sem6/lab_06/main.mod.o;  true

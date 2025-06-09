@@ -1,0 +1,1 @@
+./get_pid.sh > pid.txt; ./proc.o $(cat pid.txt)  proc_out.txt

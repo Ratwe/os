@@ -1,0 +1,15 @@
+Running 2 processes...
+[Client 5342] Got num = 1
+Number execution time: 106.000000 ms
+[Client 5342] wait result is <>
+Wait execution time: 67.000000 ms
+[Client 5342] res is <z>
+Res execution time: 141.000000 ms
+Total execution time: 314.000000 ms
+[Client 5344] Got num = 2
+Number execution time: 74.000000 ms
+[Client 5344] wait result is <>
+Wait execution time: 63.000000 ms
+[Client 5344] res is <a>
+Res execution time: 155.000000 ms
+Total execution time: 292.000000 ms

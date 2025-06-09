@@ -1,0 +1,193 @@
+ENVIRON:
+SHELL=/bin/bash
+WSL2_GUI_APPS_ENABLED=1
+WSL_DISTRO_NAME=Ubuntu
+WT_SESSION=da419866-f5a9-4a1d-9d93-6ac75fb851f8
+NAME=LAPTOP-E2OGAIT1
+PWD=/mnt/d/Code/Github/os/sem6/lab_05/lamport
+LOGNAME=ratwe
+HOME=/home/ratwe
+LANG=C.UTF-8
+WSL_INTEROP=/run/WSL/8284_interop
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+WAYLAND_DISPLAY=wayland-0
+LESSCLOSE=/usr/bin/lesspipe %s %s
+TERM=xterm-256color
+LESSOPEN=| /usr/bin/lesspipe %s
+USER=ratwe
+DISPLAY=:0
+SHLVL=1
+XDG_RUNTIME_DIR=/run/user/1000/
+WSLENV=WT_SESSION:WT_PROFILE_ID:
+XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop
+PATH=/home/ratwe/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/ProgramData/Oracle/Java/javapath:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Program Files/Cloudflare/Cloudflare WARP/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/dotnet/:/mnt/e/:/mnt/c/Program Files (x86)/NoteBook FanControl/:/mnt/c/Users/ratwe/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2021.3.2/bin:/mnt/c/Users/ratwe/AppData/Local/atom/bin:/mnt/c/Users/ratwe/AppData/Local/Microsoft/WindowsApps:/mnt/d/Code/Github/pythonProject1/venv/Scripts:/mnt/e/MikTex/miktex/bin/x64/:/mnt/d/texlive/2023/bin/windows:/mnt/c/Users/ratwe/AppData/Local/JetBrains/Toolbox/scripts:/mnt/d/ModelSim/modelsim_ase/win32aloem:/snap/bin
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+HOSTTYPE=x86_64
+PULSE_SERVER=unix:/mnt/wslg/PulseServer
+WT_PROFILE_ID={51855cb2-8cce-5362-8f54-464b92b32386}
+OLDPWD=/mnt/d/Code/Github
+_=./lamport_server
+
+STAT:
+(1) pid  			'18866'
+(2) comm 			'(lamport_server)'
+(3) state  			'S'
+(4) ppid  			'8287'
+(5) pgrp  			'18866'
+(6) session  			'8287'
+(7) tty_nr  			'34819'
+(8) tpgid  			'18866'
+(9) flags  			'4194304'
+(10) minflt  			'169'
+(11) cminflt  			'0'
+(12) majflt  			'2'
+(13) cmajflt  			'0'
+(14) utime  			'0'
+(15) stime  			'0'
+(16) cutime  			'0'
+(17) cstime  			'0'
+(18) priority  			'20'
+(19) nice  			'0'
+(20) num_threads  		'1'
+(21) itrealvalue  		'0'
+(22) starttime  		'134949'
+(23) vsize  			'21389312'
+(24) rss  			'928'
+(25) rsslim  			'18446744073709551615'
+(26) startcode  		'94329702846464'
+(27) endcode  			'94329702849441'
+(28) startstack  		'140722676427440'
+(29) kstkesp  			'0'
+(30) kstkeip  			'0'
+(31) signal  			'0'
+(32) blocked  			'0'
+(33) sigignore  		'0'
+(34) sigcatch  			'0'
+(35) wchan  			'1'
+(36) nswap  			'0'
+(37) cnswap  			'0'
+(38) exit_signal  		'17'
+(39) processor  		'3'
+(40) rt_priority  		'0'
+(41) policy  			'0'
+(42) delayacct_blkio_ticks  	'0'
+(43) guest_time  		'0'
+(44) cguest_time  		'0'
+(45) start_data  		'94329702857992'
+(46) end_data  			'94329702858769'
+(47) start_brk  		'94329712713728'
+(48) arg_start  		'140722676433439'
+(49) arg_end  			'140722676433456'
+(50) env_start  		'140722676433456'
+(51) env_end  			'140722676436967'
+(52) exit_code  		'0
+'
+
+CMDLINE: ./lamport_server
+
+FD:
+0 -> /dev/pts/3
+1 -> /dev/pts/3
+2 -> /dev/pts/3
+3 -> socket:[186882]
+4 -> socket:[186884]
+
+CWD: /mnt/d/Code/Github/os/sem6/lab_05/lamport
+
+EXE: /mnt/d/Code/Github/os/sem6/lab_05/lamport/lamport_server
+
+ROOT: /
+
+
+MAPS:
+bytes		in pages		addr-addr
+4096		1			55cad86e0000-55cad86e1000 r--p 00000000 00:57 18014398509496028          /mnt/d/Code/Github/os/sem6/lab_05/lamport/lamport_server
+4096		1			55cad86e1000-55cad86e2000 r-xp 00001000 00:57 18014398509496028          /mnt/d/Code/Github/os/sem6/lab_05/lamport/lamport_server
+4096		1			55cad86e2000-55cad86e3000 r--p 00002000 00:57 18014398509496028          /mnt/d/Code/Github/os/sem6/lab_05/lamport/lamport_server
+4096		1			55cad86e3000-55cad86e4000 r--p 00002000 00:57 18014398509496028          /mnt/d/Code/Github/os/sem6/lab_05/lamport/lamport_server
+4096		1			55cad86e4000-55cad86e5000 rw-p 00003000 00:57 18014398509496028          /mnt/d/Code/Github/os/sem6/lab_05/lamport/lamport_server
+135168		33			55cad904a000-55cad906b000 rw-p 00000000 00:00 0                          [heap]
+4096		1			7f01687ff000-7f0168800000 ---p 00000000 00:00 0 
+8388608		2048			7f0168800000-7f0169000000 rw-p 00000000 00:00 0 
+4096		1			7f0169000000-7f0169001000 ---p 00000000 00:00 0 
+8404992		2052			7f0169001000-7f0169805000 rw-p 00000000 00:00 0 
+12288		3			7f0169805000-7f0169808000 r--p 00000000 08:20 36779                      /usr/lib/x86_64-linux-gnu/libresolv.so.2
+40960		10			7f0169808000-7f0169812000 r-xp 00003000 08:20 36779                      /usr/lib/x86_64-linux-gnu/libresolv.so.2
+12288		3			7f0169812000-7f0169815000 r--p 0000d000 08:20 36779                      /usr/lib/x86_64-linux-gnu/libresolv.so.2
+4096		1			7f0169815000-7f0169816000 r--p 0000f000 08:20 36779                      /usr/lib/x86_64-linux-gnu/libresolv.so.2
+4096		1			7f0169816000-7f0169817000 rw-p 00010000 08:20 36779                      /usr/lib/x86_64-linux-gnu/libresolv.so.2
+8192		2			7f0169817000-7f0169819000 rw-p 00000000 00:00 0 
+8192		2			7f0169819000-7f016981b000 r--p 00000000 08:20 6629                       /usr/lib/x86_64-linux-gnu/libkeyutils.so.1.9
+8192		2			7f016981b000-7f016981d000 r-xp 00002000 08:20 6629                       /usr/lib/x86_64-linux-gnu/libkeyutils.so.1.9
+4096		1			7f016981d000-7f016981e000 r--p 00004000 08:20 6629                       /usr/lib/x86_64-linux-gnu/libkeyutils.so.1.9
+4096		1			7f016981e000-7f016981f000 r--p 00004000 08:20 6629                       /usr/lib/x86_64-linux-gnu/libkeyutils.so.1.9
+4096		1			7f016981f000-7f0169820000 rw-p 00005000 08:20 6629                       /usr/lib/x86_64-linux-gnu/libkeyutils.so.1.9
+12288		3			7f0169820000-7f0169823000 r--p 00000000 08:20 252135                     /usr/lib/x86_64-linux-gnu/libkrb5support.so.0.1
+24576		6			7f0169823000-7f0169829000 r-xp 00003000 08:20 252135                     /usr/lib/x86_64-linux-gnu/libkrb5support.so.0.1
+8192		2			7f0169829000-7f016982b000 r--p 00009000 08:20 252135                     /usr/lib/x86_64-linux-gnu/libkrb5support.so.0.1
+4096		1			7f016982b000-7f016982c000 ---p 0000b000 08:20 252135                     /usr/lib/x86_64-linux-gnu/libkrb5support.so.0.1
+4096		1			7f016982c000-7f016982d000 r--p 0000b000 08:20 252135                     /usr/lib/x86_64-linux-gnu/libkrb5support.so.0.1
+4096		1			7f016982d000-7f016982e000 rw-p 0000c000 08:20 252135                     /usr/lib/x86_64-linux-gnu/libkrb5support.so.0.1
+8192		2			7f016982e000-7f0169830000 r--p 00000000 08:20 6497                       /usr/lib/x86_64-linux-gnu/libcom_err.so.2.1
+4096		1			7f0169830000-7f0169831000 r-xp 00002000 08:20 6497                       /usr/lib/x86_64-linux-gnu/libcom_err.so.2.1
+4096		1			7f0169831000-7f0169832000 r--p 00003000 08:20 6497                       /usr/lib/x86_64-linux-gnu/libcom_err.so.2.1
+4096		1			7f0169832000-7f0169833000 r--p 00003000 08:20 6497                       /usr/lib/x86_64-linux-gnu/libcom_err.so.2.1
+4096		1			7f0169833000-7f0169834000 rw-p 00004000 08:20 6497                       /usr/lib/x86_64-linux-gnu/libcom_err.so.2.1
+8192		2			7f0169834000-7f0169836000 rw-p 00000000 00:00 0 
+16384		4			7f0169836000-7f016983a000 r--p 00000000 08:20 26108                      /usr/lib/x86_64-linux-gnu/libk5crypto.so.3.1
+110592		27			7f016983a000-7f0169855000 r-xp 00004000 08:20 26108                      /usr/lib/x86_64-linux-gnu/libk5crypto.so.3.1
+49152		12			7f0169855000-7f0169861000 r--p 0001f000 08:20 26108                      /usr/lib/x86_64-linux-gnu/libk5crypto.so.3.1
+4096		1			7f0169861000-7f0169862000 ---p 0002b000 08:20 26108                      /usr/lib/x86_64-linux-gnu/libk5crypto.so.3.1
+4096		1			7f0169862000-7f0169863000 r--p 0002b000 08:20 26108                      /usr/lib/x86_64-linux-gnu/libk5crypto.so.3.1
+4096		1			7f0169863000-7f0169864000 rw-p 0002c000 08:20 26108                      /usr/lib/x86_64-linux-gnu/libk5crypto.so.3.1
+4096		1			7f0169864000-7f0169865000 rw-p 00000000 00:00 0 
+135168		33			7f0169865000-7f0169886000 r--p 00000000 08:20 26039                      /usr/lib/x86_64-linux-gnu/libkrb5.so.3.3
+380928		93			7f0169886000-7f01698e3000 r-xp 00021000 08:20 26039                      /usr/lib/x86_64-linux-gnu/libkrb5.so.3.3
+249856		61			7f01698e3000-7f0169920000 r--p 0007e000 08:20 26039                      /usr/lib/x86_64-linux-gnu/libkrb5.so.3.3
+4096		1			7f0169920000-7f0169921000 ---p 000bb000 08:20 26039                      /usr/lib/x86_64-linux-gnu/libkrb5.so.3.3
+53248		13			7f0169921000-7f016992e000 r--p 000bb000 08:20 26039                      /usr/lib/x86_64-linux-gnu/libkrb5.so.3.3
+8192		2			7f016992e000-7f0169930000 rw-p 000c8000 08:20 26039                      /usr/lib/x86_64-linux-gnu/libkrb5.so.3.3
+45056		11			7f0169930000-7f016993b000 r--p 00000000 08:20 25975                      /usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2.2
+229376		56			7f016993b000-7f0169973000 r-xp 0000b000 08:20 25975                      /usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2.2
+49152		12			7f0169973000-7f016997f000 r--p 00043000 08:20 25975                      /usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2.2
+4096		1			7f016997f000-7f0169980000 ---p 0004f000 08:20 25975                      /usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2.2
+8192		2			7f0169980000-7f0169982000 r--p 0004f000 08:20 25975                      /usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2.2
+8192		2			7f0169982000-7f0169984000 rw-p 00051000 08:20 25975                      /usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2.2
+163840		40			7f0169984000-7f01699ac000 r--p 00000000 08:20 30344                      /usr/lib/x86_64-linux-gnu/libc.so.6
+1658880		405			7f01699ac000-7f0169b41000 r-xp 00028000 08:20 30344                      /usr/lib/x86_64-linux-gnu/libc.so.6
+360448		88			7f0169b41000-7f0169b99000 r--p 001bd000 08:20 30344                      /usr/lib/x86_64-linux-gnu/libc.so.6
+4096		1			7f0169b99000-7f0169b9a000 ---p 00215000 08:20 30344                      /usr/lib/x86_64-linux-gnu/libc.so.6
+16384		4			7f0169b9a000-7f0169b9e000 r--p 00215000 08:20 30344                      /usr/lib/x86_64-linux-gnu/libc.so.6
+8192		2			7f0169b9e000-7f0169ba0000 rw-p 00219000 08:20 30344                      /usr/lib/x86_64-linux-gnu/libc.so.6
+53248		13			7f0169ba0000-7f0169bad000 rw-p 00000000 00:00 0 
+28672		7			7f0169bad000-7f0169bb4000 r--p 00000000 08:20 6807                       /usr/lib/x86_64-linux-gnu/libtirpc.so.3.0.0
+110592		27			7f0169bb4000-7f0169bcf000 r-xp 00007000 08:20 6807                       /usr/lib/x86_64-linux-gnu/libtirpc.so.3.0.0
+36864		9			7f0169bcf000-7f0169bd8000 r--p 00022000 08:20 6807                       /usr/lib/x86_64-linux-gnu/libtirpc.so.3.0.0
+4096		1			7f0169bd8000-7f0169bd9000 ---p 0002b000 08:20 6807                       /usr/lib/x86_64-linux-gnu/libtirpc.so.3.0.0
+4096		1			7f0169bd9000-7f0169bda000 r--p 0002b000 08:20 6807                       /usr/lib/x86_64-linux-gnu/libtirpc.so.3.0.0
+4096		1			7f0169bda000-7f0169bdb000 rw-p 0002c000 08:20 6807                       /usr/lib/x86_64-linux-gnu/libtirpc.so.3.0.0
+8192		2			7f0169be7000-7f0169be9000 rw-p 00000000 00:00 0 
+8192		2			7f0169be9000-7f0169beb000 r--p 00000000 08:20 30323                      /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+172032		42			7f0169beb000-7f0169c15000 r-xp 00002000 08:20 30323                      /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+45056		11			7f0169c15000-7f0169c20000 r--p 0002c000 08:20 30323                      /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+8192		2			7f0169c21000-7f0169c23000 r--p 00037000 08:20 30323                      /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+8192		2			7f0169c23000-7f0169c25000 rw-p 00039000 08:20 30323                      /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+135168		33			7ffc8d220000-7ffc8d241000 rw-p 00000000 00:00 0                          [stack]
+16384		4			7ffc8d35b000-7ffc8d35f000 r--p 00000000 00:00 0                          [vvar]
+8192		2			7ffc8d35f000-7ffc8d361000 r-xp 00000000 00:00 0                          [vdso]
+Total size (in bytes): 21389312
+Total size (in pages): 5222
+IO:
+rchar: 16361
+wchar: 1197
+syscr: 31
+syscw: 34
+read_bytes: 36864
+write_bytes: 0
+cancelled_write_bytes: 0
+
+COMM: lamport_server
+
+TASK:
+18866
+
